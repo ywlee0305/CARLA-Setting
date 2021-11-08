@@ -18,7 +18,7 @@ wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key|sudo apt-key add - &&
 sudo apt-get update
 ```
   
-> 꼭 **sudo apt-add-repository "deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-8 main"** 하지 말아야한다. 
+> 꼭 **sudo apt-add-repository "deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-8 main"** 하지 **말아야**한다. 
 > 
 > 그 이유는 clang-8 설치를 막기 때문.
 > 
