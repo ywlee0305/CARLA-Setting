@@ -37,6 +37,7 @@ sudo apt-get update
 
 5.
   ```
+  sudo apt install python3-testresources
   pip3 install --user -Iv setuptools==47.3.1 &&
   pip3 install --user distro &&
   pip3 install --user wheel auditwheel
