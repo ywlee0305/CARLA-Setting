@@ -53,7 +53,7 @@ sudo apt-get update
   ```
   2021 8월부터 보안문제로 아이디와 토큰(password부분)을 기입해야 다운이 가능하다.(일시적인 오류라는데 아직까지 해결되지는 않았다.)
   
-  다음 링크: [token link](https://kim-dragon.tistory.com/122, "tokenlink") 를 참고하기 바란다.
+  다음 링크: [token link](https://kim-dragon.tistory.com/122 , "tokenlink") 를 참고하기 바란다.
   
   2. 다운받은 공간내의 UnrealEngine 폴더에 들어간 다음,
   ```
