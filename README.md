@@ -81,11 +81,12 @@ sudo apt-get update
   **그냥 branch 설정없이 git clone을 하게되면 가장 최신 버전이 다운되니 조심하기 바란다.**
   
   2. CARLA root 폴더에 들어가서 assets 다운로드
+  
   **[주의]** 최신 버전의 carla로 구축이 되면 안되기 때문에,
   ```
   {**carla설치폴더**}$ git lfs clone -b 0.9.12 https://bitbucket.org/carla-simulator/carla-content Unreal/CarlaUE4/Content/Carla
   ```
-  
+  git lfs 명령어가 되지 않는다면 다음 링크 참고  / 링크: [lfs link](https://snowdeer.github.io/git/2019/10/17/how-to-use-git-lfs/ "lfslink") 
   
   3. bashrc파일에 UnrealEngine 폴더 경로 기입 후 터미널 리셋
   ```
