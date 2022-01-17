@@ -82,8 +82,13 @@ sudo apt-get update
   
   2. CARLA root 폴더에 들어가서 assets 다운로드
   ```
-  cd ~/carla && ./Update.sh
+  ~cd ~/carla && ./Update.sh~
   ```
+  **[주의]** 위와 같이 하면 최신 버전의 carla로 구축이 되기 때문에, 위 커맨드가 아닌,
+  ```
+  {**carla설치폴더**}$ git lfs clone -b 0.9.12 https://bitbucket.org/carla-simulator/carla-content Unreal/CarlaUE4/Content/Carla
+  ```
+  
   
   3. bashrc파일에 UnrealEngine 폴더 경로 기입 후 터미널 리셋
   ```
