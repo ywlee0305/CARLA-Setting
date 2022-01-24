@@ -117,6 +117,10 @@ sudo apt-get update
  ```
  cd ~/carla/Dist/CARLA_Shipping_0.9.12/LinuxNoEditor && ./CarlaUE4.sh 
  ```
+ (만약 디스플레이를 띄우는 것이 싫다면)
+ ```
+ cd ~/carla/Dist/CARLA_Shipping_0.9.12/LinuxNoEditor && ./CarlaUE4.sh -RenderOffScreen
+ ```
  
    -----------------------------------------------------------------------------
  
