@@ -117,5 +117,9 @@ sudo apt-get update
  ```
  cd ~/carla/Dist/CARLA_Shipping_0.9.12/LinuxNoEditor && ./CarlaUE4.sh 
  ```
-
+ 
+   -----------------------------------------------------------------------------
+ 
+ ## Additions: Modify CARLA Segmentation
+ 만약 세그멘테이션 클래스를 변경하거나 추가하려면 다음 링트를 참고 / 링크: [seg link](https://carla.readthedocs.io/en/0.9.12/tuto_D_create_semantic_tags/ "seglink") 
   
